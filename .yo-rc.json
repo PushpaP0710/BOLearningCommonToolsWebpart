@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.8.1",
+    "libraryName": "bo-learning-common-tools-webpart",
+    "libraryId": "8f688267-c5be-4fe8-84b9-26c1fd54753c",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

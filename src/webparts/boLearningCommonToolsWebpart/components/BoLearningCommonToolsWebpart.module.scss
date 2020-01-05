@@ -1,0 +1,108 @@
+.ParentCatogoryDiv{
+/*
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+      .ParentHeadline{
+          display:flex;
+          font-size: 10px;
+      }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+          .ParentHeadline{
+              display:block;   
+              .categoryIcon{
+                  height: 20px;
+                  width: 20px;            
+              }
+              .topHeadline{
+                  font-family: BrownStd,HM Ampersand!important;
+                  color: #000;
+                  background: #fcb;
+                  height: 75px;
+                  width: 26%;
+                  border-radius: 15px;
+                  display: inline-block;
+                  margin-right: 3%;
+                  padding: 5px;
+                  font-size: 10px;
+                  font-weight: 400;
+                  margin-top: 3%;
+                  }     
+          }       
+  }
+  */
+  .ParentHeadline
+  {
+      margin: 5%;
+      margin-top: 8%;
+      text-align: center;
+          .topHeadline{
+              font-family: BrownStd,'HM Ampersand' !important;
+              color: #000;
+              //border: 1px solid #808080;
+              //background: #ffccbb;
+              //height: 75px;
+              float: left;
+              margin-left: 3%;
+              margin-top: -5%;
+              width: 30%;
+              //border-radius: 15px;
+              display: block;
+              margin-bottom: 5%;
+              //padding: 5px;
+              font-size: .85em;
+              font-weight: normal;
+              }
+            }
+  .categoryatag
+  {
+      display: block;
+     /* width: inherit;*/
+      height: inherit;
+      position: inherit;
+      text-decoration:none;
+      margin-right: 10%;
+      text-align: center;
+  }
+  .categorybox{
+      height:125px;
+      border: 1px solid #808080;
+      text-align: center;
+      position: relative;
+      margin: auto;
+      margin-top: 10px;
+      width: 100%;
+      color: #000;
+      text-transform: uppercase;
+      font-weight: normal;
+  }
+  .categoryTitle{
+      font-size:14px;
+      margin-top:10%;
+      text-align: center;
+      display:grid;
+
+}    
+  .categoryIcon{
+      height: 65px;
+      float: right;
+      margin-right: 10px;
+      //width: 30%;
+      //margin-left: 67%;
+      margin-bottom: 5px;
+      //margin: auto;
+      display: block;
+  }
+}
+.configtab
+{
+  font-family:BrownStd,'HM Ampersand' !important;
+  background: #ffccbb;
+  height: 200px;
+  width: 100%; 
+  text-align: center;
+  line-height: 2.5;
+  .Innerconfigtab{
+      padding-top: calc(10% - 10px);
+  }
+}

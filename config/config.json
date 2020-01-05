@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bo-learning-common-tools-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/boLearningCommonToolsWebpart/BoLearningCommonToolsWebpartWebPart.js",
+          "manifest": "./src/webparts/boLearningCommonToolsWebpart/BoLearningCommonToolsWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BoLearningCommonToolsWebpartWebPartStrings": "lib/webparts/boLearningCommonToolsWebpart/loc/{locale}.js"
+  }
+}
